@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "TileFactory.h"
+#import "Tile.h"
 
 @interface ViewController ()
 
@@ -19,11 +20,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     TileFactory *factory = [[TileFactory alloc]init];
-    NSString *tiles = [factory tiles];
+    self.tiles = [factory tiles];
     
-    NSLog(@"%@",tiles);
+    self.currentPosition = CGPointMake(0, 0);
+    
+    [self updateTile];
 }
 
+-(void) updateTile{
+    Tile *currentTile = [[self.tiles objectAtIndex:self.currentPosition.x] objectAtIndex:self.currentPosition.y];
+    [self.TextViewHistory setText:currentTile.history];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

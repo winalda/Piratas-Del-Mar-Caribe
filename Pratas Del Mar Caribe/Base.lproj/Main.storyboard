@@ -275,6 +275,7 @@
                         <outlet property="LabelHealth" destination="CuS-ME-Vge" id="ZN6-mn-Lmr"/>
                         <outlet property="LabelWeapon" destination="A86-5O-ixx" id="fpq-8g-Q3J"/>
                         <outlet property="TextViewHistory" destination="oXk-NA-xdI" id="PXv-Jf-Bus"/>
+                        <outlet property="backgroundImage" destination="2Jn-bM-zJ8" id="zY0-sN-K8o"/>
                         <outlet property="buttonE" destination="mMY-uc-w6d" id="LPT-hZ-U5x"/>
                         <outlet property="buttonN" destination="xfX-NC-BNh" id="PUx-Ni-lgY"/>
                         <outlet property="buttonS" destination="erX-4F-JLY" id="9H8-Yw-RDz"/>

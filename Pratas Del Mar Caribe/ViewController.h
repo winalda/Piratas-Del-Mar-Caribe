@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic) CGPoint currentPosition;
+@property (strong, nonatomic) NSArray *tiles;
+
+@property (strong, nonatomic) IBOutlet UIImageView *backgroundImage;
+
 @property (strong, nonatomic) IBOutlet UILabel *LabelHealth;
 @property (strong, nonatomic) IBOutlet UILabel *LabelDamage;
 @property (strong, nonatomic) IBOutlet UILabel *LabelWeapon;
