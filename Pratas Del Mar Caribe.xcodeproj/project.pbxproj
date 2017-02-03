@@ -16,6 +16,7 @@
 		A76FFB801E439FF700979C7A /* Pratas_Del_Mar_CaribeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A76FFB7F1E439FF700979C7A /* Pratas_Del_Mar_CaribeTests.m */; };
 		A76FFB8B1E439FF700979C7A /* Pratas_Del_Mar_CaribeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A76FFB8A1E439FF700979C7A /* Pratas_Del_Mar_CaribeUITests.m */; };
 		A76FFB9A1E43B54500979C7A /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = A76FFB991E43B54500979C7A /* Tile.m */; };
+		CC1AB63E1E442EE3000FC0D0 /* TileFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1AB63D1E442EE3000FC0D0 /* TileFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		A76FFB8C1E439FF700979C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A76FFB981E43B54500979C7A /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
 		A76FFB991E43B54500979C7A /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		CC1AB63C1E442EE3000FC0D0 /* TileFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileFactory.h; sourceTree = "<group>"; };
+		CC1AB63D1E442EE3000FC0D0 /* TileFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 		A76FFB641E439FF500979C7A /* Pratas Del Mar Caribe */ = {
 			isa = PBXGroup;
 			children = (
+				CC1AB63C1E442EE3000FC0D0 /* TileFactory.h */,
+				CC1AB63D1E442EE3000FC0D0 /* TileFactory.m */,
 				A76FFB981E43B54500979C7A /* Tile.h */,
 				A76FFB991E43B54500979C7A /* Tile.m */,
 				A76FFB681E439FF500979C7A /* AppDelegate.h */,
@@ -282,6 +287,7 @@
 				A76FFB6A1E439FF500979C7A /* AppDelegate.m in Sources */,
 				A76FFB671E439FF500979C7A /* main.m in Sources */,
 				A76FFB9A1E43B54500979C7A /* Tile.m in Sources */,
+				CC1AB63E1E442EE3000FC0D0 /* TileFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +519,7 @@
 				A76FFB911E439FF700979C7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A76FFB921E439FF700979C7A /* Build configuration list for PBXNativeTarget "Pratas Del Mar CaribeTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +528,7 @@
 				A76FFB941E439FF700979C7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A76FFB951E439FF700979C7A /* Build configuration list for PBXNativeTarget "Pratas Del Mar CaribeUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +537,7 @@
 				A76FFB971E439FF700979C7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

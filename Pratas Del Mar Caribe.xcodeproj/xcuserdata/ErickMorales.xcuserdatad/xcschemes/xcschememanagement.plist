@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pratas Del Mar Caribe.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A76FFB611E439FF500979C7A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A76FFB7A1E439FF700979C7A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A76FFB851E439FF700979C7A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TileFactory.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    TileFactory *factory = [[TileFactory alloc]init];
+    NSString *tiles = [factory tiles];
+    
+    NSLog(@"%@",tiles);
 }
 
 
