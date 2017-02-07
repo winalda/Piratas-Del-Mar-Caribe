@@ -34,7 +34,7 @@
 -(void) updateTile{
     Tile *currentTile = [[self.tiles objectAtIndex:self.currentPosition.x] objectAtIndex:self.currentPosition.y];
     [self.TextViewHistory setText:currentTile.history];
-    //[self.backgroundImage setImage:currentTile.backGroundImage];
+    [self.backgroundImage setImage:currentTile.backGroundImage];
 }
 
 - (void)didReceiveMemoryWarning {
