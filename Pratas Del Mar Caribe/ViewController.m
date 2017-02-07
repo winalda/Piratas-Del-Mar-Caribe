@@ -25,8 +25,7 @@
     self.tiles = [factory tiles];
     
     self.currentPosition = CGPointMake(0,0);
-
-    
+    self.character = [factory character];
     [self updateTile];
     [self updateArrowButtons];
 }
@@ -35,6 +34,11 @@
     Tile *currentTile = [[self.tiles objectAtIndex:self.currentPosition.x] objectAtIndex:self.currentPosition.y];
     [self.TextViewHistory setText:currentTile.history];
     [self.backgroundImage setImage:currentTile.backGroundImage];
+    
+    [self.LabelHealth setText:[NSString stringWithFormat:@"%d",self.character.health]];
+    [self.LabelDamage setText:[NSString stringWithFormat:@"%d",self.character.damage]];
+    [self.LabelWeapon setText:self.character.weapon.name];
+    [self.LabelArmor setText:self.character.armor.name];
 }
 
 - (void)didReceiveMemoryWarning {
