@@ -39,6 +39,7 @@
     [self.LabelDamage setText:[NSString stringWithFormat:@"%d",self.character.damage]];
     [self.LabelWeapon setText:self.character.weapon.name];
     [self.LabelArmor setText:self.character.armor.name];
+    [self.ButtonAccion setTitle:currentTile.actionButtonTitle forState:UIControlStateNormal];
 }
 
 - (void)didReceiveMemoryWarning {
